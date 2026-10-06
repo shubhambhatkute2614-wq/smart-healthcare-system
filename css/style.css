@@ -1,0 +1,613 @@
+/* ================================
+   SMART HEALTHCARE SYSTEM
+   COMMON STYLE
+================================ */
+
+/* ---------- General ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f8fc;
+    color: #222;
+}
+
+/* ---------- Header ---------- */
+
+header {
+    background: linear-gradient(90deg, #1677ff, #11c5e8);
+    color: white;
+    padding: 25px 8%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* ---------- Main Container ---------- */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* ---------- Headings ---------- */
+
+h1 {
+    color: #1769e0;
+}
+
+h2 {
+    color: #1769e0;
+}
+
+h3 {
+    color: #1769e0;
+}
+
+/* ---------- Links ---------- */
+
+a {
+    text-decoration: none;
+    color: #1769e0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Buttons ---------- */
+
+button {
+    background: #1769e0;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0d55bd;
+}
+
+/* ---------- Forms ---------- */
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #d5dce5;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1769e0;
+}
+
+/* ---------- Cards ---------- */
+
+.card {
+    background: white;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+/* ---------- Dashboard Cards ---------- */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    margin-top: 40px;
+}
+
+.cards .card {
+    text-align: center;
+    min-height: 300px;
+}
+
+.cards .card h2 {
+    font-size: 30px;
+}
+
+.cards .card p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* ---------- Symptom Grid ---------- */
+
+.symptom-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.symptom {
+    background: #f5f9ff;
+    border: 1px solid #dce8f7;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.symptom:hover {
+    background: #e8f2ff;
+}
+
+/* ---------- Doctor Cards ---------- */
+
+.doctor-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.doctor-card {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.doctor-card h3 {
+    font-size: 23px;
+    margin-top: 0;
+}
+
+.doctor-card p {
+    line-height: 1.6;
+}
+
+.specialization {
+    display: inline-block;
+    background: #e5f0ff;
+    color: #1769e0;
+    padding: 7px 14px;
+    border-radius: 20px;
+}
+
+/* ---------- Result Page ---------- */
+
+.result-card {
+    background: white;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.result-card h2 {
+    margin-top: 0;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    background: #17212b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+/* ---------- Horizontal Line ---------- */
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 30px 0;
+}
+
+/* ---------- Responsive Design ---------- */
+
+@media (max-width: 900px) {
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .doctor-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .symptom-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 94%;
+    }
+
+    .doctor-container {
+        grid-template-columns: 1fr;
+    }
+
+    .symptom-grid {
+        grid-template-columns: 1fr;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+/* ================================
+   SMART HEALTHCARE SYSTEM
+   COMMON STYLE
+================================ */
+
+/* ---------- General ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f8fc;
+    color: #222;
+}
+
+/* ---------- Header ---------- */
+
+header {
+    background: linear-gradient(90deg, #1677ff, #11c5e8);
+    color: white;
+    padding: 25px 8%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: white;
+}
+
+/* ---------- Main Container ---------- */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* ---------- Headings ---------- */
+
+h1 {
+    color: #1769e0;
+}
+
+h2 {
+    color: #1769e0;
+}
+
+h3 {
+    color: #1769e0;
+}
+
+/* ---------- Disease Finder Heading ---------- */
+
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading h1 {
+    color: #1769e0;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.heading p {
+    color: #666;
+    font-size: 18px;
+}
+
+.instruction {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* ---------- Links ---------- */
+
+a {
+    text-decoration: none;
+    color: #1769e0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Buttons ---------- */
+
+button {
+    background: #1769e0;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0d55bd;
+}
+
+/* ---------- Forms ---------- */
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #d5dce5;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1769e0;
+}
+
+/* ---------- Cards ---------- */
+
+.card {
+    background: white;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+/* ---------- Dashboard Cards ---------- */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    margin-top: 40px;
+}
+
+.cards .card {
+    text-align: center;
+    min-height: 300px;
+}
+
+.cards .card h2 {
+    font-size: 30px;
+}
+
+.cards .card p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* ---------- Symptom Grid ---------- */
+
+.symptom-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.symptom {
+    background: #f5f9ff;
+    border: 1px solid #dce8f7;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.symptom:hover {
+    background: #e8f2ff;
+}
+
+.symptom input {
+    margin-right: 8px;
+    transform: scale(1.2);
+}
+
+/* ---------- Doctor Cards ---------- */
+
+.doctor-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.doctor-card {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.doctor-card h3 {
+    font-size: 23px;
+    margin-top: 0;
+}
+
+.doctor-card p {
+    line-height: 1.6;
+}
+
+.specialization {
+    display: inline-block;
+    background: #e5f0ff;
+    color: #1769e0;
+    padding: 7px 14px;
+    border-radius: 20px;
+}
+
+/* ---------- Result Page ---------- */
+
+.result-card {
+    background: white;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.result-card h2 {
+    margin-top: 0;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    background: #17212b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ---------- Horizontal Line ---------- */
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 30px 0;
+}
+
+/* ---------- Responsive Design ---------- */
+
+@media (max-width: 900px) {
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .doctor-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .symptom-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 94%;
+    }
+
+    .doctor-container {
+        grid-template-columns: 1fr;
+    }
+
+    .symptom-grid {
+        grid-template-columns: 1fr;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+.dashboard-header {
+    background: linear-gradient(90deg, #1677ff, #11c5e8);
+    color: white;
+    padding: 25px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-header h1 {
+    margin: 0;
+    color: white;
+}
+
+.logout-btn {
+    background: white;
+    color: #1769e0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logout-btn:hover {
+    background: #f0f6ff;
+    text-decoration: none;
+}
+
+/* ---------- Manage Disease / Doctor Action Buttons ---------- */
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.edit-btn,
+.delete-btn {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none !important;
+    font-weight: bold;
+    color: white !important;
+}
+
+.edit-btn {
+    background: #1769e0;
+}
+
+.edit-btn:hover {
+    background: #0d55bd;
+}
+
+.delete-btn {
+    background: #dc3545;
+}
+
+.delete-btn:hover {
+    background: #b02a37;
+}
